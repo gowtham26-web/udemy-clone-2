@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Gabarito", sans-serif;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    gap: 10px;
+align-items: center;
+}
+.navbar-s1__title{
+    color: #A335EF;
+}
+.navbar-s2{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    width: 60%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar-s2 input{
+    border: none;
+    width: 100%;
+}
+.navbar-s2 input:focus{
+    outline: none;
+}
+.navbar-s3{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.categories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+
+}
+.categories p:hover {
+    background-color: #b459f1;
+    color: black;
+  }
+  .categories p:active {
+    background-color: #b459f1;
+    color: white;
+  }
+.categories p{
+    background-color: #A335EF;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+.sale-image img{
+    width: 100%;
+}
+
+.recommended{
+    padding: 10px;
+}
+
+.course-card{
+    width: 350px;
+
+}
+.course-card img{
+    width: 100%;
+    height: 60%;
+}
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.topics__title{
+    padding: 10px;
+}
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+
+
+}
+.topics__container p{
+    border: solid gray 2px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+.topics__container p:hover{
+    background-color: gray;
+    color: black;
+}
+.popular-title{
+    padding: 10px;
+}
+.popular-subtitle{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+.footer-one{
+    display: flex;
+    gap: 10px;
+}
+.footer-one p{
+    margin: 5px;
+}
+.footer-one p:hover{
+    color: #A335EF;
+}
+.footer-two{
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
